@@ -9,28 +9,100 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative w-1/2 h-12 bg-red-200">
+      <p>Parent Element</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        <p>Absolute Child</p>
+      </div>
+    </div>
 
     <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Top right corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
     <!-- Bottom left corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
     <!-- Bottom right corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
     <!-- Span top edge -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 top-0 h-16 bg-yellow-300"></div>
+    </div>
     <!-- Span left edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 left-0 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span right edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 right-0 w-16 bg-yellow-300"></div>
+    </div>
 
     <!-- Span bottom edge -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+    </div>
     <!-- Display Classes -->
-
+    <div class="mx-auto">
+      <span class="inline font-bold">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum natus,
+        modi voluptas culpa accusamus, nihil blanditiis odit quod
+      </span>
+      <span class="inline-block font-bold">
+        aliquam minus, commodi officiis? Assumenda blanditiis temporibus hic
+        sapiente rem, facilis eveniet deserunt dolorum possimus
+      </span>
+      <span class="block font-bold">
+        suscipit accusantium, sint iste et distinctio nemo explicabo pariatur
+        corrupti dolores. Saepe consectetur vitae fugit magni assumenda
+        deserunt, dolor delectus facere sunt! Necessitatibus placeat
+      </span>
+      <span class="hidden font-bold">
+        aut eius nemo. Lorem ipsum dolor sit amet consectetur,
+      </span>
+      adipisicing elit. Magnam accusantium ut earum error! Ipsam sequi eaque
+      excepturi, iste est perferendis?
+    </div>
     <!-- Z-Index -->
-
+    <div class="relative h-36">
+      <div class="absolute w-24 left-10 h-24 bg-blue-500 z-40">1</div>
+      <div class="absolute w-24 left-20 h-24 bg-blue-400">2</div>
+      <div class="absolute w-24 left-40 h-24 bg-blue-300 z-10">3</div>
+      <div class="absolute w-24 left-60 h-24 bg-blue-200 z-20">4</div>
+      <div class="absolute w-24 left-80 h-24 bg-blue-100 z-30">5</div>
+    </div>
     <!-- Floats -->
+    <div class="w-1/2">
+      <img
+        src="../assets/img/img1.jpg"
+        alt=""
+        class="h-48 w-48 float-left m-4"
+      />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, rerum
+        adipisci! Necessitatibus at quia mollitia eius dolorum ad autem qui cum
+        nihil tempora culpa voluptatibus reiciendis officia corrupti, quaerat
+        eveniet cupiditate rerum ullam deleniti ex nostrum nam! Accusantium,
+        possimus! Laborum ratione odio rem.Quod iste fugiat dignissimos amet
+        minus minima? Assumenda est autem laborum! Ab tempora quod velit iste
+        magnam corporis mollitia repellat? Quos eius sint reprehenderit beatae
+        ratione quasi architecto, quae sequi modi consequuntur! Optio doloribus
+        animi aspernatur dolores vel assumenda nemo nulla eos harum hic,mollitia
+        atque, cupiditate laborum consequatur ipsam numquam in illo quam eveniet
+        natus? Iure iusto voluptas magni vel consequatur at ut molestias
+        voluptate recusandae reprehenderit, explicabo ipsam itaque vitae
+        maiores. Iste, praesentium error.
+      </p>
+    </div>
   </body>
 </html>
 
